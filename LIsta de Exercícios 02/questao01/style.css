@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+thead {
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black;
+}
+
+.borda-lateral {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+  
+caption {
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+}
+
+
+th {
+    text-align: left;
+}
+
+.grupo th, td {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+tfoot {
+    border-top: 1px solid black;
+}
