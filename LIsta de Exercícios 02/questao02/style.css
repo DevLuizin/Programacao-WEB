@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+th {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.destaque {
+    color: black;
+    background-color: rgb(255, 159, 159);
+}
+
+.destaque:hover {
+    color: white;
+    background-color: rgb(219, 96, 96);
+}
+
+caption {
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 5px;
+}
