@@ -1,0 +1,12 @@
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    margin: 20px 0;
+}
+
+option {
+    padding: 10px;
+}
