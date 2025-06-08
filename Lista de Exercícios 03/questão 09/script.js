@@ -1,13 +1,7 @@
-let multiplos = "";
-let count = 0;
-let numero = 1;
+let multiplos = "Os 5 primeiros múltiplos de 3 são:\n";
 
-while (count < 5) {
-  if (numero % 3 === 0) {
-    multiplos += numero + "\n";
-    count++;
-  }
-  numero++;
+for (let i = 1; i <= 5; i++) {
+  multiplos += (3 * i) + "\n";
 }
 
-window.alert("5 primeiros múltiplos de 3:\n" + multiplos);
+window.alert(multiplos);
