@@ -7,6 +7,7 @@ let quadradoN1 = Math.pow(n1, 2);
 let modulo = n1 % n2;
 
 window.alert(
+  "Resultados:\n" +
   "Soma: " + soma +
   "\nProduto do 1º pelo quadrado do 2º: " + produto +
   "\nQuadrado do 1º número: " + quadradoN1 +
