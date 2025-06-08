@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input {
+    width: 75px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+button {
+    padding: 5px 20px;
+    margin-top: 15px;
+}
