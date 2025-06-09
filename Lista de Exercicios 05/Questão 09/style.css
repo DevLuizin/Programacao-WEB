@@ -1,0 +1,8 @@
+.container {
+    text-align: center;
+}
+
+#spanDiaHorario {
+    font-weight: bold;
+    color: #333;
+}
