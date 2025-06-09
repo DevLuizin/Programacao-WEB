@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+span {
+    font-weight: bold;
+    color: #333;
+}
