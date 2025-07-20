@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Série de Fibonacci</title>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Série de Fibonacci</h1>
+        <form action="/fibonacci" method="get">
+            <label for="posicao">Posição do termo (a partir de 1):</label>
+            <input type="number" id="posicao" name="posicao" min="1" required>
+            <button type="submit">Obter Termo</button>
+        </form>
+    </div>
+</body>
+</html>
