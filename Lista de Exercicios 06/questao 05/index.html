@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instante Atual</title>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Selecione o Formato de Exibição de Instante de Tempo Atual</h3>
+        <form action="/info-instante-atual" method="get">
+            <input type="radio" name="param" value="dma" checked> Data<br>
+            <input type="radio" name="param" value="ds"> Dia da Semana<br>
+            <input type="radio" name="param" value="dmahms"> Data, Horas, Minuto e Segundos<br>
+            <input type="radio" name="param" value="hms"> Horas, Minuto e Segundos <br><br>
+            <button type="submit">Obter Instante de Tempo Atual</button>
+        </form>
+    </div>
+</body>
+</html>
